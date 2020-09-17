@@ -143,12 +143,12 @@ li{
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 
     .sbox{
         position: absolute;
         left: 0;
-        width: 50%;
+        width: auto;
         height: 20px;
         overflow: hidden;
         transition: height .6s ease-out;
@@ -170,8 +170,8 @@ li{
     
     .smenu{
         position: relative;
-        left: 50px;
-        width: 50px;
+        left: 20px;
+        width: auto;
     }
     
     .smenu > li{
@@ -201,7 +201,7 @@ li{
     
     #navibar{
         position: fixed;
-        width: 50%;
+        width: auto;
         height: 20px;
         background-color:deepskyblue;
         z-index: 1;
@@ -210,13 +210,13 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 50%;
+        width: auto;
         height: 20px;
         margin: 0 auto;
     }
     
     #navibar > ul > li{
-        width: 50%;
+        width: auto;
         height: 100%;
     }
     
