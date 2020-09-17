@@ -146,3 +146,87 @@ li{
 #gameone{
     text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .sbox{
+        position: absolute;
+        left: 0;
+        width: 800px;
+        height: 0px;
+        overflow: hidden;
+        transition: height .6s ease-out;
+        box-sizing: border-box;
+        margin-top:0px;
+    }
+    
+    .s1{
+        background: cornflowerblue no-repeat 520px top/auto 200px;
+    }
+    
+    .s2{
+        background: cornflowerblue no-repeat 529px 10px/auto 180px;
+    }
+    
+    #navibar > ul > li:hover > .sbox{
+        height: 200px;
+    }
+    
+    .smenu{
+        position: relative;
+        left: 200px;
+        width: 200px;
+    }
+    
+    .smenu > li{
+        width: 100%;
+    }
+    
+    .smenu a{
+        color: #333 !important;
+    }
+    
+    .smenu a:hover{
+        text-decoration: underline !important;
+    }
+    
+    #navibar{
+        position: fixed;
+        width: auto;
+        height: auto;
+        background-color:deepskyblue;
+        z-index: 1;
+        top: 0px;
+    }
+    
+    #navibar > ul{
+        position: relative;
+        width: 800px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    #navibar > ul > li{
+        width: 200px;
+        height: 100%;
+    }
+    
+    #navibar a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #333;
+        text-decoration: none;
+        font: bold 18px/50px "Dancing Script", sans-serif;
+        text-align: center;
+        transition: all .4s;
+    }
+    
+    #navibar > ul > li:hover > a{
+        color: white;
+        background-color: navy;
+        text-decoration: underline; 
+    }
+    
+    }
