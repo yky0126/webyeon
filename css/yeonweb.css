@@ -143,12 +143,12 @@ li{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 
     .sbox{
         position: absolute;
         left: 0;
-        width: 800px;
+        width: 500px;
         height: 0px;
         overflow: hidden;
         transition: height .6s ease-out;
@@ -207,7 +207,7 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 800px;
+        width: 500px;
         height: 100%;
         margin: 0 auto;
     }
