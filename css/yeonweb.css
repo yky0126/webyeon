@@ -157,15 +157,15 @@ li{
     }
     
     .s1{
-        background: cornflowerblue no-repeat 320px top/auto 200px;
+        background: cornflowerblue no-repeat auto top/auto auto;
     }
     
     .s2{
-        background: cornflowerblue no-repeat 320px 10px/auto 180px;
+        background: cornflowerblue no-repeat auto 10px/auto auto;
     }
     
     #navibar > ul > li:hover > .sbox{
-        height: 200px;
+        height: auto;
     }
     
     .smenu{
@@ -175,7 +175,7 @@ li{
     }
     
     .smenu > li{
-        width: 100%;
+        width: auto;
     }
     
     .smenu a{
@@ -226,7 +226,7 @@ li{
         height: auto;
         color: #333;
         text-decoration: none;
-        font: bold 18px/50px "Dancing Script", sans-serif;
+        font: bold 9px/25px "Dancing Script", sans-serif;
         text-align: center;
         transition: all .4s;
     }
