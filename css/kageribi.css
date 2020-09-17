@@ -1,0 +1,148 @@
+.sbox{
+    position: absolute;
+    left: 0;
+    width: 800px;
+    height: 0px;
+    overflow: hidden;
+    transition: height .6s ease-out;
+    box-sizing: border-box;
+    margin-top:0px;
+}
+
+.s1{
+    background: cornflowerblue no-repeat 520px top/auto 200px;
+}
+
+.s2{
+    background: cornflowerblue no-repeat 529px 10px/auto 180px;
+}
+
+#navibar > ul > li:hover > .sbox{
+    height: 200px;
+}
+
+.smenu{
+    position: relative;
+    left: 200px;
+    width: 200px;
+}
+
+.smenu > li{
+    width: 100%;
+}
+
+.smenu a{
+    color: #333 !important;
+}
+
+.smenu a:hover{
+    text-decoration: underline !important;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+#title{
+    margin-top: 55px;
+    padding: 0px;
+    background-color:#84b4b1;
+    font-family: "Dancing Script",cursive;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    border-radius: 30px;
+}
+
+#navibar{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color:deepskyblue;
+    z-index: 1;
+    top: 0px;
+}
+
+#navibar > ul{
+    position: relative;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#navibar > ul > li{
+    width: 200px;
+    height: 100%;
+}
+
+#navibar a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    text-decoration: none;
+    font: bold 18px/50px "Dancing Script", sans-serif;
+    text-align: center;
+    transition: all .4s;
+}
+
+#navibar > ul > li:hover > a{
+    color: white;
+    background-color: navy;
+    text-decoration: underline; 
+}
+
+#headlineone{
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+    font-size: 20px;
+    color: white;
+    border-radius:30px;
+    text-align: center;
+}
+
+#headlinetwo{
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+    font-size: 20px;
+    color: white;
+    border-radius:30px;
+    text-align: center;
+}
+
+.gallery{
+    background-color: #84b4b1;
+    border-radius: 50px;
+    border-color: gray;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%; 
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    background-color: #84b4b1;
+    border-radius: 50px;
+    border-color: gray;
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    height: 100%;
+    padding: 20px;
+}
+
+#gameone{
+    text-align: center;
+}
