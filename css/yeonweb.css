@@ -143,13 +143,13 @@ li{
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     .sbox{
         position: absolute;
         left: 0;
-        width: 100%;
-        height: 20px;
+        width: 650px;
+        height: 0px;
         overflow: hidden;
         transition: height .6s ease-out;
         box-sizing: border-box;
@@ -157,25 +157,25 @@ li{
     }
     
     .s1{
-        background: cornflowerblue no-repeat 320px top/auto 200px;
+        background: cornflowerblue no-repeat 520px top/auto 200px;
     }
     
     .s2{
-        background: cornflowerblue no-repeat 320px 10px/auto 180px;
+        background: cornflowerblue no-repeat 520px 10px/auto 180px;
     }
     
     #navibar > ul > li:hover > .sbox{
-        height: 100px;
+        height: 200px;
     }
     
     .smenu{
         position: relative;
-        left: 50px;
-        width: 70%;
+        left: 200px;
+        width: 200px;
     }
     
     .smenu > li{
-        width: 120px;
+        width: 100%;
     }
     
     .smenu a{
@@ -198,8 +198,8 @@ li{
     
     #navibar{
         position: fixed;
-        width: 100%;
-        height: 20px;
+        width: auto;
+        height: auto;
         background-color:deepskyblue;
         z-index: 1;
         top: 0px;
@@ -207,20 +207,20 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 70%;
-        height: 20px;
+        width: 650px;
+        height: 100%;
         margin: 0 auto;
     }
     
     #navibar > ul > li{
-        width: 50%;
+        width: 200px;
         height: 100%;
     }
     
     #navibar a{
         display: block;
         width: 100%;
-        height: 20px;
+        height: 100%;
         color: #333;
         text-decoration: none;
         font: bold 10px/30px "Dancing Script", sans-serif;
