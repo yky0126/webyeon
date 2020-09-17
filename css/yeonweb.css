@@ -148,7 +148,7 @@ li{
     .sbox{
         position: absolute;
         left: 0;
-        width: 100%;
+        width: 50%;
         height: 20px;
         overflow: hidden;
         transition: height .6s ease-out;
@@ -201,7 +201,7 @@ li{
     
     #navibar{
         position: fixed;
-        width: 100%;
+        width: 50%;
         height: 20px;
         background-color:deepskyblue;
         z-index: 1;
@@ -210,13 +210,13 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 100%;
+        width: 50%;
         height: 20px;
         margin: 0 auto;
     }
     
     #navibar > ul > li{
-        width: 20px;
+        width: 50%;
         height: 100%;
     }
     
