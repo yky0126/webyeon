@@ -148,7 +148,7 @@ li{
     .sbox{
         position: absolute;
         left: 0;
-        width: 100%;
+        width: auto;
         height: 20px;
         overflow: hidden;
         transition: height .6s ease-out;
@@ -175,7 +175,7 @@ li{
     }
     
     .smenu > li{
-        width: 100%;
+        width: auto;
     }
     
     .smenu a{
@@ -196,12 +196,9 @@ li{
         float: left;
     }
     
-    
-    
-    
     #navibar{
         position: fixed;
-        width: 100%;
+        width: auto;
         height: 20px;
         background-color:deepskyblue;
         z-index: 1;
@@ -210,7 +207,7 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 100%;
+        width: auto;
         height: 20px;
         margin: 0 auto;
     }
@@ -222,7 +219,7 @@ li{
     
     #navibar a{
         display: block;
-        width: 100%;
+        width: auto;
         height: 20px;
         color: #333;
         text-decoration: none;
