@@ -223,7 +223,7 @@ li{
         height: 100%;
         color: #333;
         text-decoration: none;
-        font: bold 15px/30px "Dancing Script", sans-serif;
+        font: bold 10px/20px "Dancing Script", sans-serif;
         text-align: center;
         transition: all .4s;
     }
