@@ -143,12 +143,12 @@ li{
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     .sbox{
         position: absolute;
         left: 0;
-        width: 650px;
+        width: 800px;
         height: 0px;
         overflow: hidden;
         transition: height .6s ease-out;
@@ -207,7 +207,7 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 650px;
+        width: 800px;
         height: 100%;
         margin: 0 auto;
     }
@@ -223,7 +223,7 @@ li{
         height: 100%;
         color: #333;
         text-decoration: none;
-        font: bold 10px/30px "Dancing Script", sans-serif;
+        font: bold 15px/30px "Dancing Script", sans-serif;
         text-align: center;
         transition: all .4s;
     }
