@@ -148,7 +148,7 @@ li{
     .sbox{
         position: absolute;
         left: 0;
-        width: 800px;
+        width: 320px;
         height: 0px;
         overflow: hidden;
         transition: height .6s ease-out;
@@ -157,11 +157,11 @@ li{
     }
     
     .s1{
-        background: cornflowerblue no-repeat 520px top/auto 200px;
+        background: cornflowerblue no-repeat 320px top/auto 200px;
     }
     
     .s2{
-        background: cornflowerblue no-repeat 529px 10px/auto 180px;
+        background: cornflowerblue no-repeat 320px 10px/auto 180px;
     }
     
     #navibar > ul > li:hover > .sbox{
@@ -170,8 +170,8 @@ li{
     
     .smenu{
         position: relative;
-        left: 200px;
-        width: 200px;
+        left: 50px;
+        width: 50px;
     }
     
     .smenu > li{
@@ -202,7 +202,7 @@ li{
     #navibar{
         position: fixed;
         width: 100%;
-        height: 5%;
+        height: 7%;
         background-color:deepskyblue;
         z-index: 1;
         top: 0px;
@@ -210,13 +210,13 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 800px;
+        width: 320px;
         height: 100%;
         margin: 0 auto;
     }
     
     #navibar > ul > li{
-        width: 200px;
+        width: 50px;
         height: 100%;
     }
     
