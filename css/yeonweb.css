@@ -148,8 +148,8 @@ li{
     .sbox{
         position: absolute;
         left: 0;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 20px;
         overflow: hidden;
         transition: height .6s ease-out;
         box-sizing: border-box;
@@ -165,13 +165,13 @@ li{
     }
     
     #navibar > ul > li:hover > .sbox{
-        height: auto;
+        height: 100px;
     }
     
     .smenu{
         position: relative;
-        left: auto;
-        width: auto;
+        left: 50px;
+        width: 50px;
     }
     
     .smenu > li{
@@ -201,8 +201,8 @@ li{
     
     #navibar{
         position: fixed;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 20px;
         background-color:deepskyblue;
         z-index: 1;
         top: 0px;
@@ -210,14 +210,14 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 20px;
         margin: 0 auto;
     }
     
     #navibar > ul > li{
-        width: auto;
-        height: auto;
+        width: 20px;
+        height: 100%;
     }
     
     #navibar a{
@@ -226,7 +226,7 @@ li{
         height: auto;
         color: #333;
         text-decoration: none;
-        font: bold 9px/25px "Dancing Script", sans-serif;
+        font: bold 10px/30px "Dancing Script", sans-serif;
         text-align: center;
         transition: all .4s;
     }
