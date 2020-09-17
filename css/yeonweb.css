@@ -149,7 +149,7 @@ li{
         position: absolute;
         left: 0;
         width: auto;
-        height: 0px;
+        height: auto;
         overflow: hidden;
         transition: height .6s ease-out;
         box-sizing: border-box;
@@ -201,7 +201,7 @@ li{
     
     #navibar{
         position: fixed;
-        width: 100%;
+        width: auto;
         height: auto;
         background-color:deepskyblue;
         z-index: 1;
@@ -210,14 +210,14 @@ li{
     
     #navibar > ul{
         position: relative;
-        width: 320px;
-        height: 100%;
+        width: auto;
+        height: auto;
         margin: 0 auto;
     }
     
     #navibar > ul > li{
-        width: 50px;
-        height: 100%;
+        width: auto;
+        height: auto;
     }
     
     #navibar a{
