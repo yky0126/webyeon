@@ -172,7 +172,8 @@ li{
         position: relative;
         left: 200px;
         width: 200px;
-        align-content: center;
+        align-items: center;
+        text-align: center;
     }
     
     .smenu > li{
